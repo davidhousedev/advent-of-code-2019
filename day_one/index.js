@@ -22,8 +22,8 @@ const calculateTotalFuel = mass => {
 const calculateFuelRequired = mass => Math.floor(mass / 3) - 2;
 
 if (require.main === module) {
-  console.log("Problem One: ", problemOne());
-  console.log("Problem Two: ", problemTwo());
+  console.log("Day One - Problem One: ", problemOne());
+  console.log("Day One - Problem Two: ", problemTwo());
 }
 
 module.exports = {

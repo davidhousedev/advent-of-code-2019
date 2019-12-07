@@ -1,4 +1,3 @@
 const forker = require("child_process");
-
-console.log("Day One...");
 forker.fork("./day_one");
+forker.fork("./day_two");
